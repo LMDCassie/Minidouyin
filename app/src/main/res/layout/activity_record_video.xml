@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordVideoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/video"
+            android:layout_width="wrap_content"
+            android:layout_height="600dp" />
+
+        <Button
+            android:id="@+id/bt_take_video"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="拍摄"
+            android:layout_weight="1"
+            android:textColor="#e6ffffff"
+            android:background="#FB0744"/>
+
+        <Button
+            android:id="@+id/bt_to_upload"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="上传"
+            android:layout_weight="1"
+            android:textColor="#e6ffffff"
+            android:background="#FB0744"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
